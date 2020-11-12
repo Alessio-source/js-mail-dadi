@@ -1,6 +1,6 @@
 function lancio() {
-  var userNumber = Math.floor(Math.random() * 6);
-  var pcNumber = Math.floor(Math.random() * 6);
+  var userNumber = Math.floor((Math.random() * 6) + 1);
+  var pcNumber = Math.floor((Math.random() * 6 ) + 1);
 
   var winnerElement = document.getElementById("winnerElement");
   var userNumberElement = document.getElementById("userNumberElement");
