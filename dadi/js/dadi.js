@@ -3,6 +3,11 @@ function lancio() {
   var pcNumber = Math.floor(Math.random() * 6);
 
   var winnerElement = document.getElementById("winnerElement");
+  var userNumberElement = document.getElementById("userNumberElement");
+  var pcNumberElement = document.getElementById("pcNumberElement");
+
+  userNumberElement.innerHTML = "Il tuo numero è: " + userNumber;
+  pcNumberElement.innerHTML = "Il numero del pc è: " + pcNumber;
 
   if (userNumber > pcNumber) {
     winnerElement.style.color = "green";
