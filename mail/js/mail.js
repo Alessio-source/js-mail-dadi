@@ -1,5 +1,5 @@
 function checkEmail() {
-  var emails = ["mariorossi@gmail.it", "2b@yahoo.it", "brandobaldo@libero.it"];
+  var emails = ["haimaipensatodilodareilsole@gmail.it", "2b@yahoo.it", "brandobaldo@libero.it", "artorias@hoerlupo.it"];
   var emailUser = document.getElementById("emailElement").value;
   var message = document.getElementById("messageElement");
 
